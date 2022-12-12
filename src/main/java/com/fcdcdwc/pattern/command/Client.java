@@ -31,41 +31,6 @@ public class Client {
         invoke.setCommand(cmd1);
         invoke.setCommand(cmd2);
 
-        int tongxue = 31500;
-        int jiali = 160000;
-        int majie = 30000;
-        int yuying = 50000;
-        int jiezong = tongxue + jiali + majie + yuying;
-
-        int jianshe = 37000 - 6700;
-        int jiaotong = 20000 - 9300;
-        int gongshang = 25000 - 7900;
-        int meituan = 38000 - 23000;
-        int xinzong = jianshe + jiaotong + gongshang + meituan;
-
-        int duxiaoman = 164000;
-        int wangshangdai = 139700 - 85700;
-        int huabei = 45200 - 23100;
-        int jingdong = 18000 - 13000;
-        int daizong = duxiaoman + wangshangdai + huabei + jingdong;
-
-        int zong = jiezong + xinzong + daizong;
-        System.out.println("家：" + jiezong);
-        System.out.println("信：" + xinzong);
-        System.out.println("贷：" + daizong);
-        System.out.println("欠总：" + zong);
-
-        int fangdai = 2700 * 60;
-        int chedai = 3061 * 47;
-        int baoxian = 1500 * 60;
-        int you = 4 * 32000;
-        int che = 15000 * 5;
-        int gongsi = 3500 * 5;
-        int sheng = 3000 * 60;
-        int guzong = fangdai + chedai + baoxian + you + che + gongsi + sheng;
-        System.out.println("支出型总：" + guzong);
-
-        System.out.println("总：" + (guzong + zong));
 
 
         //让服务员发起命令
